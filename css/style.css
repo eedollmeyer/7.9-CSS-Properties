@@ -1,0 +1,99 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  font-family: Courier, sans-serif;
+  float: left;
+  position: fixed;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #696969;
+}
+
+figcaption {
+  font-size: .75em;
+  padding-top: .5em;
+  padding-bottom: 1.3em;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  padding-bottom: .5em;
+  font-family: Courier, sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 125%;
+  padding-bottom: .3em;
+}
+
+p {
+  padding-bottom: .75em;
+  line-height: 135%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
